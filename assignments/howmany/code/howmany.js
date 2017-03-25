@@ -2,7 +2,7 @@ function doLevel1(){
 	hide("level1")
 	show("level2")
     var answer = prompt("What is the answer")
-	if (answer == "dishes"){
+	if (answer == "3"){
 		alert ("You got it right !")
 		addPoints(10)
 	}else{
@@ -16,7 +16,7 @@ function doLevel2(){
 	hide("level2")
 	show("level3")
     var answer = prompt("What is the answer")
-	if (answer == "10"){
+	if (answer == "people"){
         alert("You got it right!")
 		addPoints(15)
 	}else{
